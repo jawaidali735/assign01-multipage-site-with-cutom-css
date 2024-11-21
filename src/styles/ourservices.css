@@ -103,15 +103,34 @@
   }
   
  
+
+
   @media (max-width: 768px) {
     .services-rows {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
     }
-  
+
     .service-item {
-      width: 80%; 
-      margin-bottom: 20px;
+        width: 95%; 
+        margin-bottom: 20px;
     }
-  }
+
+    .services-title {
+        font-size: 2rem; 
+    }
+
+    .services-description {
+        font-size: 1rem; 
+    }
+
+    .service-title {
+        font-size: 1.5rem; 
+    }
+
+    .service-description {
+        font-size: 0.9rem; 
+    }
+}
   

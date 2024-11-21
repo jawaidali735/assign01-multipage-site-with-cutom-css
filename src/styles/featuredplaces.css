@@ -90,10 +90,53 @@
 
 .place-card:hover .place-description {
     opacity: 1;
-    bottom: 15px; /* Slide up */
+    bottom: 15px; 
 }
 
 .place-card:hover .place-name {
     transform: translateY(-20px);
 }
 
+@media screen and (max-width: 768px) {
+    .featured-places {
+        padding: 15px;
+    }
+
+    .featured-places p {
+        font-size: 14px;
+        max-width: 300px;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+        margin-bottom: 40px;
+    }
+
+    .places-container {
+        gap: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .place-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .place-image {
+        height: 100px;
+    }
+
+    .place-info {
+        padding: 10px;
+        height: auto;
+    }
+
+    .place-name {
+        font-size: 1.2rem;
+    }
+
+    .place-description {
+        font-size: 0.9rem;
+    }
+}

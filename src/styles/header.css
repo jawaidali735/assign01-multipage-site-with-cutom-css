@@ -72,14 +72,14 @@
   }
 
   .nav-item {
-    font-size: 0.8rem; 
+    font-size: 0.9rem; 
   }
 }
 
 
 @media (max-width: 480px) {
   .header {
-    padding: 10px 20px;
+    padding: 15px 20px;
   }
 
   .logo {
@@ -93,6 +93,6 @@
   }
 
   .nav-item {
-    font-size: 0.7rem; 
+    font-size: 0.9rem; 
   }
 }
